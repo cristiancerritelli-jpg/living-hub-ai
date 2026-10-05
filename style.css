@@ -1,0 +1,14 @@
+:root { color-scheme: light; --ink: #465160; --muted: #657080; --accent: #3f716b; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--ink); background: #fff; border-top: 4px solid var(--ink); }
+main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 64px 24px 48px; }
+.logo { display: block; width: min(300px, 78vw); height: auto; }
+.divider { width: 40px; height: 2px; margin: 44px 0 28px; background: #d8dee4; }
+h1 { margin: 0; font-size: clamp(32px, 6vw, 52px); font-weight: 600; line-height: 1.2; letter-spacing: -1.5px; }
+.separator { color: #b2bbc5; font-weight: 300; margin: 0 6px; }
+.ai { color: var(--accent); }
+.status { margin: 28px 0 0; display: inline-flex; align-items: center; gap: 10px; padding: 12px 18px; border-radius: 999px; background: #f2f5f5; color: #3d5d59; font-size: 14px; font-weight: 500; line-height: 1.5; }
+.dot { width: 7px; height: 7px; flex-shrink: 0; border-radius: 50%; background: var(--accent); }
+.description { max-width: 480px; margin: 22px 0 0; font-size: 17px; line-height: 1.75; color: var(--muted); }
+footer { text-align: center; padding: 24px; font-size: 12px; letter-spacing: .4px; color: #727d8b; }
+@media (max-width: 380px) { main { padding-inline: 18px; } .status { font-size: 12px; padding-inline: 13px; } .description { font-size: 15px; } }
