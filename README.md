@@ -14,8 +14,6 @@ Per l'anteprima locale apri `index.html`. Modifica i testi in `index.html` e l'a
 
 ## Dashboard demo
 
-La dashboard interattiva è disponibile in [`dashboard/index.html`](dashboard/index.html). Se GitHub Pages è attivo sul branch `main` e sulla cartella `/ (root)`, la pagina si apre anche qui:
+La dashboard interattiva è disponibile in [`dashboard/index.html`](dashboard/index.html). Include una sezione Immobili con ricerca e filtri, dettaglio immobile e checklist documenti. Nella demo le richieste ai professionisti sono simulate; non vengono inviate notifiche reali.
 
-https://cristiancerritelli-jpg.github.io/living-hub-ai/dashboard/
-
-La demo usa dati fittizi. La dettatura dipende dal supporto del browser e dall’autorizzazione al microfono.
+Se GitHub Pages è attivo sul branch `main` e sulla cartella `/ (root)`, la pagina è raggiungibile a https://cristiancerritelli-jpg.github.io/living-hub-ai/dashboard/ . I dati sono dimostrativi; la dettatura dipende dal browser e dal permesso del microfono.
